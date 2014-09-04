@@ -1,0 +1,6 @@
+Questão 1 - Inverte os valores de A e B.
+
+Questão 2 - Mantém o maior valor na primeira variável e o outro na segunda variável.
+
+Questão 3 - Ordena 3 valores em ordem crescente.
+
