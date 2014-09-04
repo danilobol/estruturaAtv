@@ -1,6 +1,10 @@
-Quest„o 1 - Inverte os valores de A e B.
+Quest√£o 1 - Inverte os valores de A e B.
 
-Quest„o 2 - MantÈm o maior valor na primeira vari·vel e o outro na segunda vari·vel.
+Quest√£o 2 - Mant√©m o maior valor na primeira vari√°vel e o outro na segunda vari√°vel.
 
-Quest„o 3 - Ordena 3 valores em ordem crescente.
+Quest√£o 3 - Ordena 3 valores em ordem crescente.
+
+Quest√£o 4 - 
+
+Quest√£o 5 - Recebe dois valores e retorna no primeiro valor a soma do primeiro com o segundo.
 
