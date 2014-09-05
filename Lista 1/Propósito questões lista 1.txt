@@ -6,4 +6,4 @@ QuestÃ£o 3 - Ordena 3 valores em ordem crescente.
 
 Questão 4 - Recebe 2 notas e faz o calculo da média normal e  ponderada, dividido em três funções.
 
-Questão 5 - Recebe 2 valores A e B e então o valor de B fica o mesmo e o valor de A passa ser a soma de A e B.
+Questão 5 - Recebe 2 valores A e B e então o valor de B fica o mesmo e o valor de A passa ser a soma de A com B.
