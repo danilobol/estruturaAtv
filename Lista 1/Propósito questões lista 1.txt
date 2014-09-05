@@ -1,13 +1,9 @@
-Questão 1 - Inverte os valores de A e B.
+QuestÃ£o 1 - Inverte os valores de A e B.
 
-Questão 2 - Mantém o maior valor na primeira variável e o outro na segunda variável.
+QuestÃ£o 2 - MantÃ©m o maior valor na primeira variÃ¡vel e o outro na segunda variÃ¡vel.
 
-Questão 3 - Ordena 3 valores em ordem crescente.
+QuestÃ£o 3 - Ordena 3 valores em ordem crescente.
 
-Questão 4 - 
+Questão 4 - Recebe 2 notas e faz o calculo da média normal e  ponderada, dividido em três funções.
 
-Questão 5 - Recebe dois valores e retorna no primeiro valor a soma do primeiro com o segundo.
-
-Quest�o 4 - Recebe 2 notas e faz o calculo da m�dia normal e  ponderada, dividido em tr�s fun��es.
-
-Quest�o 5 - Recebe 2 valores A e B e ent�o o valor de B fica o mesmo e o valor de A passa ser a soma de A e B.
+Questão 5 - Recebe 2 valores A e B e então o valor de B fica o mesmo e o valor de A passa ser a soma de A e B.
