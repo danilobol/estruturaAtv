@@ -8,8 +8,12 @@ Questão 4 - Recebe 2 notas e faz o calculo da média normal e  ponderada, divid
 
 Questão 5 - Recebe 2 valores A e B e então o valor de B fica o mesmo e o valor de A passa ser a soma de A com B.
 
-Questão 6 - 
+Questão 6 - Resolve equações do 2º grau.
 
 Questão 7 - 
 
 Questão 8 - Recebe N numeros e diz qual numero mais se repete e qantas vezes ele se repetiu.
+
+Questão 9 -
+
+Questão 10 - Recebe dois numeros em A e B, e retorna a soma do dobro desses dois numeros.
