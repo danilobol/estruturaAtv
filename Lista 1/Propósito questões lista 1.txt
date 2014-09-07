@@ -10,7 +10,7 @@ Questão 5 - Recebe 2 valores A e B e então o valor de B fica o mesmo e o valor
 
 Questão 6 - Resolve equações do 2º grau.
 
-Questão 7 - 
+Questão 7 - Diz a parte inteira e fracionária de um numero.
 
 Questão 8 - Recebe N numeros e diz qual numero mais se repete e qantas vezes ele se repetiu.
 
