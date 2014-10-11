@@ -3,7 +3,7 @@
 
 int main(void){
     
-    int trocaValores(int &a, int &b); //chama a função
+    int trocaValores(int *a, int *b); //chama a funÃ§Ã£o
     int a, b;
     
     printf ("Digite o valor de A: ");
@@ -11,22 +11,21 @@ int main(void){
     printf ("Digite o valor de B: ");
     scanf ("%i",&b);
     
-    trocaValores(a, b); // a função recebe as variáveis
+    trocaValores(&a, &b); // a funÃ§Ã£o recebe as variÃ¡veis
     
     printf ("O Valor de A: %i \nO valor de B: %i\n",a,b);
     
-    system ("pause");
     return 0;
-
+	system ("Pause");
 }
 
-int trocaValores(int &a, int &b){
+int trocaValores(int *a, int *b){
     
     int aux;
     
-    aux = a; // troca os valores
-    a = b;
-    b = aux;
+    aux = *a; // troca os valores
+    *a = *b;
+    *b = aux;
     
     return a,b; // retorna os valorers trocados
 }
