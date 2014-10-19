@@ -1,18 +1,17 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 int main(void){
     
-    void mudarValor (int A, int B);
+    void mudarValor (int *A, int *B);
     int a, b;
     scanf ("%d %d",&a, &b);
     
-    mudarValor(a,b);
+    mudarValor(&a, &b);
     system ("pause");
     return 0;
 }
-void mudarValor (int A, int B){
-     A = A + B;
-     printf ("%d %d\n",A,B);
+void mudarValor (int *A, int *B){
+     *A = *A + *B;
+     printf ("%d %d\n", *A, *B);
 }
     
