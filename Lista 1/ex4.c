@@ -1,41 +1,35 @@
 #include <stdio.h>
-#include <stdlib.h>
 
-float n1, n2, m1, m2;
 
-int main (void){
-    
-    void exibe_dados ();
-    float le_notas ();
-    float calc_media (float x, float r);
-    
-    le_notas ();
-    
-    calc_media (m1, m2);
-    
-    exibe_dados();
+int main() {
+	
+	void le_notas(float *n1, float *n2);
 
-    system ("pause");
-    return 0;
+	void calc_media(float *n1, float *n2, float *media, float *mediaP);
+
+	void exibe_dados(float *n1, float *n2, float *media, float *mediaP);
+
+	float n1, n2, media, mediaP;
+	
+	le_notas(&n1, &n2);
+	
+	calc_media(&n1, &n2, &media, &mediaP);
+	
+	exibe_dados(&n1, &n2, &media, &mediaP);
+	
+	return 0;
 }
-float le_notas (){
-      
-      scanf ("%f",&n1);
-      scanf ("%f",&n2);
 
-}  
-
-float calc_media (float x, float r){
-      
-      m1 = (n1 + n2) / 2;
-      m2 = (n1 + (n2 * 2)) / 3;
-      
-      return 1;
-     
+void le_notas(float *n1, float *n2) {
+	scanf("%f %f", n1, n2);
 }
-void exibe_dados (void){
-     
-          
-     printf ("A média normal eh %.2f\nA media ponderada eh %.2f\n", m1, m2);
-     
-}  
+
+void calc_media(float *n1, float *n2, float *media, float *mediaP) {
+	*media = (*n1 + *n2) / 2;
+	*mediaP = (*n1 + *n2 * 2) / 3;
+}
+
+void exibe_dados(float *n1, float *n2, float *media, float *mediaP) {
+	printf("Media normal: %.2f\n", *media);
+	printf("Media ponderada: %.2f\n", *mediaP);
+}
